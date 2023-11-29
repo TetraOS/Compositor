@@ -34,7 +34,55 @@
   
 6. **License:** This project is licensed under the MIT License. For more information, please refer to the LICENSE file included in the repository.
 
-## CAUTION:
+## File Tree Structure
+
+The following content below is the file structure of this repository in the format as a file tree.
+
+     `
+          /my_compositor
+      /build
+         CMakeLists.txt
+      /src
+         /main
+           main.cpp
+         /core
+           /config
+             config.h
+           /display
+             display.h
+             display.cpp
+           /compositor
+             compositor.h
+             compositor.cpp
+           /event_handler
+             event_handler.h
+             event_handler.cpp
+           /window_manager
+             window_manager.h
+             window_manager.cpp
+         /libs
+           /QtWayland
+             CMakeLists.txt
+             qtwayland_client.cpp
+             qtwayland_client.h
+             qtwayland_server.cpp
+             qtwayland_server.h
+         /qml
+           main.qml
+      /resources
+         compositor.png
+      /docs
+         /usage
+           usage.md
+         /architecture
+           architecture.md
+      .gitignore
+      README.md
+      COPYING
+      LICENSE
+     `
+
+## ⚠️ CAUTION:
 
 Please note that the specific implementation details may vary depending on the code within the repository. Always refer to the actual README.md file and code within the repository for accurate and up-to-date information.
 
