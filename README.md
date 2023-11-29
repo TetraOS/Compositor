@@ -20,10 +20,6 @@
 
       `./compositor`
 
-   By default, the compositor will run on Wayland. To run it on X11, use the following command:
-
-     `./compositor --platform x11`
-
 5. **Contributing:** To contribute to this project, feel free to fork the repository and submit a pull request with your proposed changes. Here are some specific ideas for contributions:
 
       - Add support for more window managers or compositors
