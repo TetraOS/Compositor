@@ -11,7 +11,7 @@ The compositor is structured into several components:
 
 These components are organized into separate folders for better modularity and maintainability.
 
-The `CMakeLists.txt` file is used to generate the build system. It includes the necessary libraries and dependencies, such as Qt and Wayland.
+The `CMakeLists.txt` file is used to generate the build system. It includes the necessary libraries and dependencies, such as Qt and Wayland, and so on.
 
 The compositor is designed to be modular and extensible. This allows for the easy addition of new features or the integration of third-party libraries.
 
