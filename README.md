@@ -1,7 +1,7 @@
 # TetraOS Compositor
 
 
-1. **Overview:** This C++ repository demonstrates the creation of TetrOS' compositor using the QtWayland library.
+1. **Overview:** This C++ repository demonstrates the creation of TetraOS' compositor using the QtWayland library.
 
 
 2. **Dependencies:** Ensure you have the following installed:
