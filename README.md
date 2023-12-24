@@ -34,49 +34,47 @@
 
 The following content below is the file structure of this repository in the format as a file tree.
 
-     `
-          /my_compositor
-      /build
-         CMakeLists.txt
-      /src
-         /main
-           main.cpp
-         /core
-           /config
-             config.h
-           /display
-             display.h
-             display.cpp
-           /compositor
-             compositor.h
-             compositor.cpp
-           /event_handler
-             event_handler.h
-             event_handler.cpp
-           /window_manager
-             window_manager.h
-             window_manager.cpp
-         /libs
-           /QtWayland
-             CMakeLists.txt
-             qtwayland_client.cpp
-             qtwayland_client.h
-             qtwayland_server.cpp
-             qtwayland_server.h
-         /qml
-           main.qml
-      /resources
-         compositor.png
-      /docs
-         /usage
-           usage.md
-         /architecture
-           architecture.md
-      .gitignore
-      README.md
-      COPYING
-      LICENSE
-     `
+```
+├── build
+│   └── CMakeLists.txt
+├── docs
+│   ├── architecture
+│   │   └── architecture.md
+│   └── usage
+│       └── usage.md
+├── qml
+│   └── main.qml
+├── my_compositor
+│   ├── main.cpp
+│   ├── core
+│   │   ├── config
+│   │   │   └── config.h
+│   │   ├── display
+│   │   │   ├── display.cpp
+│   │   │   └── display.h
+│   │   ├── compositor
+│   │   │   ├── compositor.cpp
+│   │   │   └── compositor.h
+│   │   ├── event_handler
+│   │   │   ├── event_handler.cpp
+│   │   │   └── event_handler.h
+│   │   └── window_manager
+│   │       ├── window_manager.cpp
+│   │       └── window_manager.h
+│   └── libs
+│       └── QtWayland
+│           ├── CMakeLists.txt
+│           ├── qtwayland_client.cpp
+│           ├── qtwayland_client.h
+│           ├── qtwayland_server.cpp
+│           └── qtwayland_server.h
+├── resources
+│   └── compositor.png
+├── .gitignore
+├── README.md
+├── COPYING
+└── LICENSE
+```
 
 ## ⚠️ CAUTION:
 
