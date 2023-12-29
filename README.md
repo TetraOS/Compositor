@@ -10,17 +10,7 @@
      - Wayland server
      - Xorg X server (optional, for running on X11)
   
-
-3. **Setup:** To compile the compositor, open a terminal in the root directory of the repository and run the following command:
-
-      `qmake && make`
-
-
-4. **Running the Compositor:** After successful compilation, you can run the compositor by executing the following command:
-
-      `./compositor`
-
-5. **Contributing:** To contribute to this project, feel free to fork the repository and submit a pull request with your proposed changes. Here are some specific ideas for contributions:
+3. **Contributing:** To contribute to this project, feel free to fork the repository and submit a pull request with your proposed changes. Here are some specific ideas for contributions:
 
       - Add support for more window managers or compositors
       - Improve the performance and efficiency of the compositor
