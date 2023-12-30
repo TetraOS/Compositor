@@ -8,8 +8,7 @@
 
      - Qt 5.x or higher
      - Wayland server
-     - Xorg X server (optional, for running on X11)
-  
+     
 3. **Contributing:** To contribute to this project, feel free to fork the repository and submit a pull request with your proposed changes. Here are some specific ideas for contributions:
 
       - Add support for more window managers or compositors
