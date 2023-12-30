@@ -8,8 +8,6 @@
 
      - Qt 5.x or higher
      - Wayland server
-     - Xorg X server (optional, for running on X11)
-  
 
 3. **Setup:** To compile the compositor, open a terminal in the root directory of the repository and run the following command:
 
