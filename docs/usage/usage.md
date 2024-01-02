@@ -41,7 +41,7 @@
 ## Configuring the Compositor
 
 
-You can configure the behavior of the compositor by modifying the `config.h` file.
+You can configure the behaviour of the compositor by modifying the `config.h` file.
 
 
 ## Interacting with the Compositor
@@ -55,8 +55,8 @@ You can configure the behavior of the compositor by modifying the `config.h` fil
 ## Customizing the User Interface
 
 
-The `main.qml` file located in the `/qml` directory contains the code for the user interface. You can customize the appearance and behavior of the user interface by modifying this file.
+The `main.qml` file located in the `/qml` directory contains the code for the user interface. You can customize the appearance and behaviour of the user interface by modifying this file.
 
 ## ⚠️ CAUTION:
 
-Please note that this repo is in it's early stages of development at the time of this reading. Therefore some usage actions may not be applicable due to the incomplete files/content necessary to run the non-applicable commands. 
+Please note that this repo is in its early stages of development at the time of this reading. Therefore some usage actions may not be applicable due to the incomplete files/content necessary to run the non-applicable commands. 
