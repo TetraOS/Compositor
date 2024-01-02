@@ -33,7 +33,7 @@ The following content below is the file structure of this repository in the form
 │       └── usage.md
 ├── qml
 │   └── main.qml
-├── my_compositor
+├── compositor_main
 │   ├── main.cpp
 │   ├── core
 │   │   ├── config
@@ -57,8 +57,6 @@ The following content below is the file structure of this repository in the form
 │           ├── qtwayland_client.h
 │           ├── qtwayland_server.cpp
 │           └── qtwayland_server.h
-├── resources
-│   └── compositor.png
 ├── .gitignore
 ├── README.md
 ├── COPYING
