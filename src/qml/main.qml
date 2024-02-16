@@ -1,32 +1,28 @@
-import QtQuick 2.15
-import QtQuick.Window 2.15
-import QtQuick.Controls 2.15
+import QtQuick 2.12
+import QtWayland 1.0
 
-ApplicationWindow {
-    id: window
-    visible: true
+Item {
+    id: root
     width: 800
     height: 600
-    title: "Compositor"
 
-    Column {
-        anchors.centerIn: parent
-        spacing: 20
+    WaylandCompositor {
+        id: compositor
+        anchors.fill: parent
+    }
 
-        Button {
-            id: button1
-            text: "Button 1"
-            onClicked: {
-                // Add the code to execute when this button is clicked
-            }
-        }
+    WaylandShell {
+        id: shell
+        compositor: compositor
+    }
 
-        Button {
-            id: button2
-            text: "Button 2"
-            onClicked: {
-                // Add the code to execute when this button is clicked
-            }
-        }
+    WaylandSurface {
+        id: surface
+        shell: shell
+        x: 100
+        y: 100
+        width: 200
+        height: 200
+        color: "red"
     }
 }
