@@ -1,24 +1,34 @@
-// This is currently a base file content, and more code will be later
-
-#pragma once
+#ifndef COMPOSITOR_H
+#define COMPOSITOR_H
 
 #include <QObject>
+#include <QWaylandCompositor>
+#include <QWaylandShell>
+#include <QWaylandShellSurface>
+#include <QWaylandOutput>
+#include <QWaylandSeat>
 
-class Compositor : public QObject
-{
+class Compositor : public QObject {
     Q_OBJECT
 
 public:
-    explicit Compositor(QObject *parent = nullptr);
+    Compositor(QObject *parent = nullptr);
+    ~Compositor();
 
-    // Add any public functions or variables here
-
-signals:
-    // Add any signals here
-
-public slots:
-    // Add any public slots here
+private slots:
+    void onSurfaceCreated(QWaylandSurface *surface);
+    void onShellCreated(QWaylandShell *shell);
+    void onSurfaceDestroyed(QWaylandSurface *surface);
+    void onSurfaceMapped(QWaylandSurface *surface);
+    void onSurfaceUnmapped(QWaylandSurface *surface);
+    void onShellDestroyed(QWaylandShell *shell);
+    void onShellSurfaceCreated(QWaylandShellSurface *shellSurface);
+    void onShellSurfaceDestroyed(QWaylandShellSurface *shellSurface);
+    void onShellSurfaceMapped(QWaylandShellSurface *shellSurface);
+    void onShellSurfaceUnmapped(QWaylandShellSurface *shellSurface);
 
 private:
-    // Add any private functions or variables here
+    QWaylandCompositor *m_compositor;
 };
+
+#endif // COMPOSITOR_H
