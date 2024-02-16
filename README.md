@@ -17,7 +17,7 @@
       - Implement support for additional Wayland protocols
       - Create new utilities for working with Wayland surfaces and X11 windows
   
-6. **License:** This project is licensed under the MIT License. For more information, please refer to the LICENSE file included in the repository.
+6. **License:** This project is licensed under the GPL 3.0. License. For more information, please refer to the LICENSE file included in the repository.
 
 ## File Tree Structure
 
@@ -63,9 +63,11 @@ The following content below is the file structure of this repository in the form
 └── LICENSE
 ```
 
+
 ## ⚠️ CAUTION:
 
 Please note that the specific implementation details may vary depending on the code within the repository. Always refer to the actual README.md file and code within the repository for accurate and up-to-date information.
+
 
 
 
