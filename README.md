@@ -1,76 +1,30 @@
 # TetraOS Compositor
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TetraOS/Compositor/docs/compositor.png" height="130" border-radius="50px"/>
+</p>
 
-1. **Overview:** This C++ repository demonstrates the creation of TetraOS' compositor using the QtWayland library.
+[![Build Status](https://travis-ci.org/TetraOS/Compositor.svg?branch=master)](https://travis-ci.org/TetraOS/Compositor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+TetraOS Compositor is a lightweight and customizable compositing window manager built using the QtWayland library. This project is designed to be modular, extensible, and efficient, capable of handling multiple windows and complex graphical effects.
 
-2. **Dependencies:** Ensure you have the following installed:
+## Features
 
-     - Qt 5.x or higher
-     - Wayland server
-     
-3. **Contributing:** To contribute to this project, feel free to fork the repository and submit a pull request with your proposed changes. Here are some specific ideas for contributions:
+* Lightweight and efficient compositing window manager
+* Modular and extensible architecture
+* Customizable user interface
+* Handles multiple windows and complex graphical effects
+* Built using the QtWayland library
 
-      - Add support for more window managers or compositors
-      - Improve the performance and efficiency of the compositor
-      - Add more advanced visual effects, such as scaling
-      - Implement support for additional Wayland protocols
-      - Create new utilities for working with Wayland surfaces and X11 windows
-  
-6. **License:** This project is licensed under the GPL 3.0. License. For more information, please refer to the LICENSE file included in the repository.
+## Requirements
 
-## File Tree Structure
+To build and run TetraOS Compositor, make sure you have the following prerequisites installed:
 
-The following content below is the file structure of this repository in the format as a file tree.
+* Operating System: Any modern Linux distribution
+* Compiler: C++17 or higher
+* Qt: Qt 5.15 or higher
 
-```
-├── build
-│   └── CMakeLists.txt
-├── docs
-│   ├── architecture
-│   │   └── architecture.md
-│   └── usage
-│       └── usage.md
-├── qml
-│   └── main.qml
-├── compositor_main
-│   ├── main.cpp
-│   ├── core
-│   │   ├── config
-│   │   │   └── config.h
-│   │   ├── display
-│   │   │   ├── display.cpp
-│   │   │   └── display.h
-│   │   ├── compositor
-│   │   │   ├── compositor.cpp
-│   │   │   └── compositor.h
-│   │   ├── event_handler
-│   │   │   ├── event_handler.cpp
-│   │   │   └── event_handler.h
-│   │   └── window_manager
-│   │       ├── window_manager.cpp
-│   │       └── window_manager.h
-│   └── libs
-│       └── QtWayland
-│           ├── CMakeLists.txt
-│           ├── qtwayland_client.cpp
-│           ├── qtwayland_client.h
-│           ├── qtwayland_server.cpp
-│           └── qtwayland_server.h
-├── .gitignore
-├── README.md
-├── COPYING
-└── LICENSE
-```
+## Building
 
-
-## ⚠️ CAUTION:
-
-Please note that the specific implementation details may vary depending on the code within the repository. Always refer to the actual README.md file and code within the repository for accurate and up-to-date information.
-
-
-
-
-
-   
-     
+1. Clone the repository:
