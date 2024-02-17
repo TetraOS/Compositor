@@ -1,11 +1,9 @@
-<h1 align="center">TetraOS Compositor</h1>
-
-![Banner](https://github.com/TetraOS/Compositor/blob/main/docs/compositor.png)
-
-<br>
+## TetraOS Compositor
 
 [![Build Status](https://travis-ci.org/TetraOS/Compositor.svg?branch=master)](https://travis-ci.org/TetraOS/Compositor)
 [![License: GPL v3](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 
 TetraOS Compositor is a lightweight and customizable compositing window manager built using the QtWayland library. This project is designed to be modular, extensible, and efficient, capable of handling multiple windows and complex graphical effects.
 
