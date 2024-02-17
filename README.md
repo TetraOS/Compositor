@@ -1,8 +1,8 @@
-# TetraOS Compositor
+<h1 align="center">TetraOS Compositor</h1>
 
-<p align="center">
-  <img src="https://github.com/TetraOS/Compositor/blob/main/docs/compositor.png" height="100%" style="border-radius=50px"/>
-</p>
+![Banner](https://github.com/TetraOS/Compositor/blob/main/docs/compositor.png)
+
+<br>
 
 [![Build Status](https://travis-ci.org/TetraOS/Compositor.svg?branch=master)](https://travis-ci.org/TetraOS/Compositor)
 [![License: GPL v3](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
