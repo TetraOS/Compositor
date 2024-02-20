@@ -24,7 +24,7 @@ To build and run TetraOS Compositor, make sure you have the following prerequisi
 * Qt: Qt 5.15 or higher
 * QtWayland
 
-## Building 👷
+## Building 👷👷‍♀️
 
 1. Clone the repository:
 
